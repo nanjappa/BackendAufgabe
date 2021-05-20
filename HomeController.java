@@ -32,6 +32,7 @@ public class HomeController {
 
             Map<String, Integer> mapPoliticians = new HashMap<>();
             String maxSpeechesForYearPolitik = null;
+            System.out.println("just testing");
 
             DateTimeFormatter df = DateTimeFormatter .ofPattern(DATE_PATTERN, Locale.forLanguageTag(LOCALE));
             while ((CSVDataLineArray = reader.readNext()) != null) {
