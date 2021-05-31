@@ -34,9 +34,8 @@ public class HomeController {
             String maxSpeechesForYearPolitik = null;
             System.out.println("just testing");
                         System.out.println("just testing");
-           while()
-           {}
-
+           
+            kdkdkdkdk
             DateTimeFormatter df = DateTimeFormatter .ofPattern(DATE_PATTERN, Locale.forLanguageTag(LOCALE));
             while ((CSVDataLineArray = reader.readNext()) != null) {
                 int year1 = LocalDate.parse( CSVDataLineArray[THIRD_COLUMN], df).atStartOfDay().getYear();
